@@ -1,0 +1,458 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>PlayList</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body>
+    <div class="container-playlist">
+        <!--************************ left part ******************-->
+        <div class="left-nav-playlist">
+            <img src="Icons/Spotify logo.png" alt="" class="logo">
+
+            <!-- **************** Home, Search, Library **************** -->
+            <div class="home-container">
+                <div class="home active">
+                    <img src="Icons/Home.png" alt="" class="lt-nav-img">
+                    <h2 class="lt-nav-h2">Home</h2>
+                </div>
+
+                <div class="search">
+                    <img src="Icons/Search.png" alt="" class="lt-nav-img">
+                    <h2 class="lt-nav-h2">Search</h2>
+                </div>
+
+                <div class="library">
+                    <img src="Icons/Your library.png" alt="" class="lt-nav-img">
+                    <h2 class="lt-nav-h2">Your Library</h2>
+                </div>
+            </div>
+
+            <!-- ***************** Playlist, liked-songs, episodes **************** -->
+
+            <div class="playlist-container">
+                <div class="playlist">
+                    <p class="playlist-header">PLAYLISTS</p>
+                </div>
+                <div class="playlist">
+                    <img src="Icons/plus.png" alt="" class="lt-nav-img">
+                    <h2 class="lt-nav-h2">Create Playlist</h2>
+                </div>
+
+                <div class="liked-songs">
+                    <img src="Icons/purpleheart.png" alt="" class="lt-nav-img">
+                    <h2 class="lt-nav-h2">Liked Songs</h2>
+                </div>
+
+            </div>
+
+            <div class="end-playlist"></div>
+
+            <div class="album-art-div">
+                <img src="Icons/album art.png" alt="" class="album-art">
+            </div>
+        </div>
+
+
+        <div class="right-part-playlist">
+            <!-- Pop Right Now Section -->
+            <div class="pop-right-now-header">
+                <div class="pop-right-now">
+                    <img src="Icons/스크린샷 2021-03-16 오후 4.04 2.png" alt="" class="pop-right-now-img">
+                </div>
+
+                <div class="header-texts">
+                    <p class="playlist-font-1">PLAYLIST</p>
+                    <p class="playlist-font-2">Pop Right Now</p>
+                    <p class="playlist-font-3">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Rhoncus</p>
+                    <div>
+                        <span class="playlist-font-4">Spotify</span>
+
+                        <svg xmlns="http://www.w3.org/2000/svg" width="4" height="4" viewBox="0 0 4 4" fill="none">
+                            <circle opacity="0.7" cx="2" cy="2" r="2" fill="white" />
+                        </svg>
+
+                        <span class="playlist-font-5">860,305 likes</span>
+
+                        <svg xmlns="http://www.w3.org/2000/svg" width="4" height="4" viewBox="0 0 4 4" fill="none">
+                            <circle opacity="0.7" cx="2" cy="2" r="2" fill="white" />
+                        </svg>
+
+                        <span class="playlist-font-5">100 songs, 5 hr 5 mins</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Playlist list section -->
+            <div class="list_section">
+
+                <!-- Play and favourite and about button adding -->
+                <div class="play-favourite-about">
+                    <div>
+                        <svg class="play-button" xmlns="http://www.w3.org/2000/svg" width="55" height="55"
+                            viewBox="0 0 55 55" fill="none">
+                            <path
+                                d="M0 27.5C0 12.3122 12.3122 0 27.5 0C42.6878 0 55 12.3122 55 27.5C55 42.6878 42.6878 55 27.5 55C12.3122 55 0 42.6878 0 27.5Z"
+                                fill="#1DB954" />
+                            <path d="M39 27.5L21 17V38L39 27.5Z" fill="white" />
+                        </svg>
+                    </div>
+
+                    <div>
+                        <svg class="favourite-button" xmlns="http://www.w3.org/2000/svg" width="46" height="46"
+                            viewBox="0 0 46 46" fill="none">
+                            <path opacity="0.7"
+                                d="M22.3027 13.4342C19.3015 10.433 14.4355 10.433 11.4342 13.4342V13.4342C8.433 16.4355 8.433 21.3015 11.4342 24.3027L22.3735 35.242C22.9957 35.8641 24.0043 35.8641 24.6265 35.242L35.5658 24.3027C38.567 21.3015 38.567 16.4355 35.5658 13.4342V13.4342C32.5645 10.433 27.6985 10.433 24.6973 13.4342L23.5 14.6315L22.3027 13.4342Z"
+                                stroke="white" stroke-linejoin="round" />
+                        </svg>
+                    </div>
+
+                    <div>
+                        <svg class="about-button" xmlns="http://www.w3.org/2000/svg" width="46" height="46"
+                            viewBox="0 0 46 46" fill="none">
+                            <g opacity="0.7">
+                                <circle cx="13.125" cy="23.125" r="2.125" fill="white" />
+                                <circle cx="23.375" cy="23.125" r="2.125" fill="white" />
+                                <circle cx="33.625" cy="23.125" r="2.125" fill="white" />
+                            </g>
+                        </svg>
+                    </div>
+                </div>
+
+                <!-- Adding title, album, date added -->
+                <div class="title-album-date">
+                    <div class="table-bar"></div>
+                    <div class="table-heads">
+                        <div class="heads-text"># Title</div>
+                        <div class="heads-text-album">ALBUM</div>
+                        <div class="heads-text">DATE ADDED</div>
+                        <div class="heads-text"></div>
+                    </div>
+                </div>
+
+                <div class="song-list">
+
+                    <!-- 1 -->
+
+                    <div class="song-details active-song">
+
+                        <!-- Song details -->
+
+                        <div class="poster-name">
+                            <svg class="play-arrow" xmlns="http://www.w3.org/2000/svg" width="10" height="14"
+                                viewBox="0 0 10 14" fill="none">
+                                <path d="M9.60205 7.04145L0.19764 13.1395L0.19764 0.943375L9.60205 7.04145Z"
+                                    fill="white" />
+                            </svg>
+                            <img src="Icons/Rectangle 9.png" alt="" class="song-logo">
+                            <div class="song-desc">
+                                <p class="song-name">We’re Good</p>
+                                <p class="song-singer">Dua Lipa</p>
+                            </div>
+                        </div>
+
+                        <!-- Alubum part -->
+
+                        <div class="album-name">
+                            <p>Future Nostalgia (The Moonlight Edition)</p>
+                        </div>
+
+                        <div class="date-added">
+                            <p>4일 전</p>
+                        </div>
+
+                        <div class="time-added">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="22" height="24" viewBox="0 0 22 24"
+                                fill="none">
+                                <path opacity="0.7"
+                                    d="M11.226 6.04065C9.65803 4.87082 7.46757 5.03618 6.09298 6.42813V6.42813C4.58531 7.95484 4.58531 10.41 6.09298 11.9367L6.79076 12.6433L6.78486 12.6493L11.9026 17.8317V17.8317C11.9059 17.8284 11.9112 17.8284 11.9144 17.8317V17.8317L17.0322 12.6493L17.0263 12.6433L17.724 11.9367C19.2317 10.41 19.2317 7.95484 17.7241 6.42813V6.42813C16.3495 5.03618 14.159 4.87082 12.591 6.04065L11.9085 6.54984L11.226 6.04065Z"
+                                    stroke="white" stroke-linejoin="round" />
+                            </svg>
+                            <p>2:45</p>
+                            <img src="Icons/Group 13.svg" alt="">
+                        </div>
+                    </div>
+
+                    <!-- 2 -->
+
+                    <div class="song-details">
+
+                        <!-- Song details -->
+
+                        <div class="poster-name">
+                            <p class="play-arrow">2</p>
+                            <img src="Icons/Rectangle 20.png" alt="" class="song-logo">
+                            <div class="song-desc">
+                                <p class="song-name">We’re Good</p>
+                                <p class="song-singer">Dua Lipa</p>
+                            </div>
+                        </div>
+
+                        <!-- Alubum part -->
+
+                        <div class="album-name">
+                            <p>Future Nostalgia (The Moonlight Edition)</p>
+                        </div>
+
+                        <div class="date-added">
+                            <p>4일 전</p>
+                        </div>
+
+                        <div class="time-added">
+                            <p>2:45</p>
+                            <img src="Icons/Group 13.svg" alt="">
+                        </div>
+                    </div>
+
+                    <!-- 3 -->
+
+                    <div class="song-details">
+
+                        <!-- Song details -->
+
+                        <div class="poster-name">
+                            <p class="play-arrow">3</p>
+                            <img src="Icons/Rectangle 20.png" alt="" class="song-logo">
+                            <div class="song-desc">
+                                <p class="song-name">We’re Good</p>
+                                <p class="song-singer">Dua Lipa</p>
+                            </div>
+                        </div>
+
+                        <!-- Alubum part -->
+
+                        <div class="album-name">
+                            <p>Future Nostalgia (The Moonlight Edition)</p>
+                        </div>
+
+                        <div class="date-added">
+                            <p>4일 전</p>
+                        </div>
+
+                        <div class="time-added">
+                            <p>2:45</p>
+                            <img src="Icons/Group 13.svg" alt="">
+                        </div>
+                    </div>
+
+                    <!-- 4 -->
+
+                    <div class="song-details">
+
+                        <!-- Song details -->
+
+                        <div class="poster-name">
+                            <p class="play-arrow">4</p>
+                            <img src="Icons/Rectangle 20.png" alt="" class="song-logo">
+                            <div class="song-desc">
+                                <p class="song-name">We’re Good</p>
+                                <p class="song-singer">Dua Lipa</p>
+                            </div>
+                        </div>
+
+                        <!-- Alubum part -->
+
+                        <div class="album-name">
+                            <p>Future Nostalgia (The Moonlight Edition)</p>
+                        </div>
+
+                        <div class="date-added">
+                            <p>4일 전</p>
+                        </div>
+
+                        <div class="time-added">
+                            <p>2:45</p>
+                            <img src="Icons/Group 13.svg" alt="">
+                        </div>
+                    </div>
+
+                    <!-- 5 -->
+
+                    <div class="song-details">
+
+                        <!-- Song details -->
+
+                        <div class="poster-name">
+                            <p class="play-arrow">5</p>
+                            <img src="Icons/Rectangle 20.png" alt="" class="song-logo">
+                            <div class="song-desc">
+                                <p class="song-name">We’re Good</p>
+                                <p class="song-singer">Dua Lipa</p>
+                            </div>
+                        </div>
+
+                        <!-- Alubum part -->
+
+                        <div class="album-name">
+                            <p>Future Nostalgia (The Moonlight Edition)</p>
+                        </div>
+
+                        <div class="date-added">
+                            <p>4일 전</p>
+                        </div>
+
+                        <div class="time-added">
+                            <p>2:45</p>
+                            <img src="Icons/Group 13.svg" alt="">
+                        </div>
+                    </div>
+
+                    <!-- 6 -->
+
+                    <div class="song-details">
+
+                        <!-- Song details -->
+
+                        <div class="poster-name">
+                            <p class="play-arrow">6</p>
+                            <img src="Icons/Rectangle 20.png" alt="" class="song-logo">
+                            <div class="song-desc">
+                                <p class="song-name">We’re Good</p>
+                                <p class="song-singer">Dua Lipa</p>
+                            </div>
+                        </div>
+
+                        <!-- Alubum part -->
+
+                        <div class="album-name">
+                            <p>Future Nostalgia (The Moonlight Edition)</p>
+                        </div>
+
+                        <div class="date-added">
+                            <p>4일 전</p>
+                        </div>
+
+                        <div class="time-added">
+                            <p>2:45</p>
+                            <img src="Icons/Group 13.svg" alt="">
+                        </div>
+                    </div>
+
+                    <!-- 7 -->
+
+                    <div class="song-details">
+
+                        <!-- Song details -->
+
+                        <div class="poster-name">
+                            <p class="play-arrow">7</p>
+                            <img src="Icons/Rectangle 20.png" alt="" class="song-logo">
+                            <div class="song-desc">
+                                <p class="song-name">We’re Good</p>
+                                <p class="song-singer">Dua Lipa</p>
+                            </div>
+                        </div>
+
+                        <!-- Alubum part -->
+
+                        <div class="album-name">
+                            <p>Future Nostalgia (The Moonlight Edition)</p>
+                        </div>
+
+                        <div class="date-added">
+                            <p>4일 전</p>
+                        </div>
+
+                        <div class="time-added">
+                            <p>2:45</p>
+                            <img src="Icons/Group 13.svg" alt="">
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+    <div class="bottom-playlist">
+
+        <!-- ****************** Bottom left **************** -->
+        <div class="songName">
+            <img src="Icons/Rectangle 9 (1).png" alt="">
+            <div class="singer-info">
+                <p class="hold-on">Hold On</p>
+                <p class="justin">Justin Bieber</p>
+            </div>
+
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+                <path opacity="0.7"
+                    d="M10.853 6.04065C9.28499 4.87082 7.09453 5.03618 5.71993 6.42813V6.42813C4.21226 7.95484 4.21226 10.41 5.71993 11.9367L6.41771 12.6433L6.41181 12.6493L11.5296 17.8317V17.8317C11.5328 17.8284 11.5381 17.8284 11.5413 17.8317V17.8317L16.6591 12.6493L16.6532 12.6433L17.351 11.9367C18.8587 10.41 18.8587 7.95484 17.351 6.42813V6.42813C15.9764 5.03618 13.7859 4.87082 12.218 6.04065L11.5355 6.54984L10.853 6.04065Z"
+                    stroke="white" stroke-linejoin="round" />
+            </svg>
+
+            <svg xmlns="http://www.w3.org/2000/svg" width="18" height="14" viewBox="0 0 18 14" fill="none">
+                <g opacity="0.5">
+                    <rect x="1" y="1" width="16" height="12" stroke="white" stroke-linejoin="round" />
+                    <rect x="1" y="11" width="16" height="2" fill="white" />
+                    <rect x="11" y="7" width="4" height="3" fill="white" />
+                </g>
+            </svg>
+        </div>
+
+        <!-- *************** Bottom Middle ****************** -->
+        <div class="playControls">
+            <div class="control">
+                <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32" fill="none">
+                    <path
+                        d="M12.8952 14.0134L13.6526 13.1478C12.4624 11.7413 10.7312 10.9839 9 10.9839V12.0658C10.4066 12.0658 11.8132 12.715 12.787 13.797L12.8952 14.0134ZM21.0102 19.0988C19.7118 19.0988 18.5216 18.5578 17.5478 17.6922L16.8986 18.5578C17.9806 19.6398 19.4954 20.1808 21.0102 20.1808V21.8038L24.7972 19.6398L21.0102 17.4758V19.0988ZM21.0102 12.6068V14.2298L24.7972 12.0658L21.0102 9.90186V11.5249C19.279 11.5249 17.5478 12.2822 16.4658 13.6888L12.787 17.9086C11.8132 18.9906 10.4066 19.6398 9 19.6398V20.7218C10.7312 20.7218 12.4624 19.9644 13.5444 18.5578L17.2232 14.338C18.197 13.256 19.6036 12.6068 21.0102 12.6068Z"
+                        fill="white" />
+                </svg>
+                <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32" fill="none">
+                    <path d="M21.82 10L13.164 14.9977V10.541H11V21.361H13.164V16.9042L21.82 21.902V10Z" fill="white" />
+                </svg>
+                <svg xmlns="http://www.w3.org/2000/svg" width="34" height="34" viewBox="0 0 34 34" fill="none">
+                    <path
+                        d="M0 17C0 7.61116 7.61116 0 17 0C26.3888 0 34 7.61116 34 17C34 26.3888 26.3888 34 17 34C7.61116 34 0 26.3888 0 17Z"
+                        fill="white" />
+                    <path d="M12.7695 23.3748L23.811 16.9998L12.7695 10.6248V23.3748Z" fill="black" />
+                </svg>
+                <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32" fill="none">
+                    <path d="M19.656 10.5365V14.9565L11 10V21.8036L19.656 16.8472V21.2671H21.82V10.5365H19.656Z"
+                        fill="white" />
+                </svg>
+                <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32" fill="none">
+                    <path
+                        d="M12.869 12.705H17.738V14.328L21.525 12.164L17.738 10V11.623H12.869C10.164 11.623 8 13.787 8 16.492C8 17.1412 8.1082 17.7904 8.4328 18.4396L9.4066 17.8986C9.1902 17.4658 9.082 17.033 9.082 16.492C9.082 14.4362 10.8132 12.705 12.869 12.705ZM22.7152 14.5444L21.7414 15.0854C21.9578 15.5182 22.066 15.951 22.066 16.492C22.066 18.5478 20.3348 20.279 18.279 20.279H13.41V18.656L9.623 20.82L13.41 22.984V21.361H18.279C20.984 21.361 23.148 19.197 23.148 16.492C23.148 15.8428 23.0398 15.1936 22.7152 14.5444Z"
+                        fill="white" />
+                </svg>
+            </div>
+            <div class="bar">
+                <p>0:00</p>
+                <img class="music-bar-playlist" src="Icons/Rectangle.png" alt="">
+                <p>2:50</p>
+            </div>
+
+        </div>
+
+        <!-- ****************** Bottom Right ********************** -->
+        <div class="volume">
+            <svg xmlns="http://www.w3.org/2000/svg" width="189" height="15" viewBox="0 0 189 15" fill="none">
+                <line x1="9" y1="4.5" x2="16" y2="4.5" stroke="white" />
+                <line x1="1" y1="8.5" x2="16" y2="8.5" stroke="white" />
+                <line x1="1" y1="12.5" x2="16" y2="12.5" stroke="white" />
+                <path d="M6 4L1.5 6.59808L1.5 1.40192L6 4Z" fill="white" />
+                <rect x="42.8228" y="1" width="8" height="12" rx="0.5" stroke="white" />
+                <circle cx="46.8228" cy="8.5" r="1.5" stroke="white" />
+                <circle cx="46.8228" cy="3.5" r="0.5" stroke="white" />
+                <path
+                    d="M39.9751 0.855469H35.6768C35.1245 0.855469 34.6768 1.30318 34.6768 1.85547V9.19049C34.6768 9.74278 35.1245 10.1905 35.6768 10.1905H39.9751"
+                    stroke="white" />
+                <line x1="37.3511" y1="12.9199" x2="39.9751" y2="12.9199" stroke="white" />
+                <path
+                    d="M80.945 0.208496L80.293 1.00329C81.87 2.5262 82.863 4.69496 82.863 7.10537C82.863 9.51579 81.869 11.6845 80.293 13.2075L80.944 14.0022C81.8641 13.1272 82.5991 12.0619 83.102 10.8745C83.6048 9.68705 83.8646 8.40346 83.8647 7.1056C83.8648 5.80775 83.6052 4.52411 83.1025 3.33659C82.5998 2.14906 81.865 1.08371 80.945 0.208496ZM78.673 2.97933L78.022 3.77412C78.4467 4.20893 78.784 4.72752 79.0143 5.2996C79.2445 5.87168 79.363 6.4858 79.3629 7.10611C79.3628 7.72643 79.2441 8.34051 79.0137 8.91251C78.7833 9.48452 78.4458 10.003 78.021 10.4377L78.672 11.2325C79.712 10.1908 80.363 8.72829 80.363 7.10641C80.363 5.48454 79.713 4.021 78.673 2.97933ZM68 3.98037V10.2304H70.804L76 13.3554V0.855371L70.804 3.98037H68ZM75 2.65954V11.5512L71.072 9.18871H69V5.02204H71.072L75 2.65954Z"
+                    fill="white" />
+                <rect x="92" y="5" width="97" height="4" rx="2" fill="#C4C4C4" />
+            </svg>
+        </div>
+
+    </div>
+</body>
+
+</html>
